@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+
+    /*Cores do site */
+
+    --cor-header: #2E948A;
+    --cor-footer: #419488;
+    --cor-secao: #F6F6F6;
+    --titulo-rosa: #FF4081;
+    --titulos: #009688;
+    --cor-texto: #0000;
+}
