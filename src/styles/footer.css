@@ -1,0 +1,43 @@
+footer {
+    background-color: var(--cor-footer);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 50px 120px;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 80px;
+}
+
+footer a {
+    color: #fff;
+    font-size: 20px;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 100px;
+}
+
+.botao-footer {
+    color: #fff;
+    border: 2px solid #FFF;
+
+    border-radius: 62px;
+
+    background-color: var(--cor-footer);
+
+    padding: 8px 40px;
+
+    font-size: 20px;
+}
