@@ -1,0 +1,81 @@
+#investimento {
+    padding: 100px 200px;
+
+    display: flex;
+    align-items: center;
+}
+
+#intro-curso {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    width: 510px;
+    height: 380px;
+}
+
+#investimento img {
+    width: 380px
+}
+
+#intro-curso h1 {
+    color: var(--titulo-rosa);
+    font-size: 55px;
+}
+
+#intro-curso p {
+    color: var(--cor-texto);
+
+    width: 420px;
+    height: 186;
+}
+
+
+/*Área de videos*/
+
+#video {
+    background-color: var(--cor-secao);
+    padding: 0px 75px;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.border {
+    padding: 75px 75px;
+
+    border-bottom: 3px solid #c4c4c4;
+}
+
+#none {
+    border: none;
+}
+
+.card-video {
+    display: flex;
+    align-items: center;
+}
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    height: 260px;
+    margin-left: 70px;
+}
+
+.descricao h3 {
+    color: var(--titulo-rosa);
+
+    font-size: 35px;
+}
+
+.descricao p {
+    width: 500px;
+
+    color: var(--cor-texto);
+}
