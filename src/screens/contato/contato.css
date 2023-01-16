@@ -1,0 +1,66 @@
+#contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0px 100px
+}
+
+#area-contato {
+    display: flex;
+    flex-direction: column;
+
+    width: 500px;
+    height: 400px;
+
+    margin-right: 200px;
+}
+
+#area-contato h1 {
+    color: var(--titulo-rosa);
+
+    font-size: 40px;
+
+    padding-bottom: 40px;
+}
+
+.form {
+    padding-bottom: 15px;
+}
+
+#nome {
+    width: 500px;
+    height: 32px;
+
+    border: 1px solid #686868;
+    border-radius: 7px;
+}
+
+#email {
+    width: 500px;
+    height: 32px;
+
+    border: 1px solid #686868;
+    border-radius: 7px;
+}
+
+#mensagem {
+    width: 500px;
+    height: 195px;
+
+    border: 1px solid #686868;
+    border-radius: 7px;
+}
+
+.form button {
+    background-color: var(--titulo-rosa);
+    font-size: 20px;
+
+    color: #fff;
+
+    padding: 10px 40px;
+
+    border-style: none;
+    border-radius: 50px;
+
+}
