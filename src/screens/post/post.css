@@ -1,0 +1,88 @@
+main {
+    padding: 100px 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1,
+time {
+    text-align: center;
+    color: #9D9D9D;
+}
+
+h1 {
+    color: var(--titulo-rosa);
+    font-size: 50px;
+}
+
+main img {
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 65px;
+}
+
+h3 {
+    color: var(--titulos);
+    font-size: 26px;
+}
+
+/*Conheça mais cursos*/
+
+
+h2 {
+    text-align: center;
+    color: var(--titulo-rosa);
+    font-size: 50px;
+}
+
+#conheca-curso {
+    background-color: var(--cor-secao);
+    padding: 80px;
+}
+
+#curso {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cursos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    text-align: center;
+
+    width: 345px;
+    height: 660px;
+
+    padding-top: 100px;
+}
+
+.cursos img {
+    width: 280px;
+    height: 280px;
+}
+
+.cursos h3 {
+    color: var(--titulo-rosa);
+    font-size: 25px;
+}
+
+.cursos p {
+    width: 290px;
+    height: 90px;
+
+    font-size: 17px;
+}
+
+.cursos button {
+    background-color: var(--titulo-rosa);
+    border-style: none;
+    border-radius: 62px;
+    padding: 12px 25px;
+
+    color: #FFF;
+    font-size: 20px;
+}
