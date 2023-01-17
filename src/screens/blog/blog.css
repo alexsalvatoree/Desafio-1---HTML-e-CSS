@@ -1,0 +1,70 @@
+#blog {
+    padding: 100px 200px;
+
+    display: flex;
+    align-items: center;
+}
+
+#intro-blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    width: 510px;
+    height: 380px;
+}
+
+#blog img {
+    width: 480px;
+    margin-left: 75px;
+}
+
+#intro-blog h1 {
+    color: var(--titulos);
+    font-size: 47px;
+
+    font-weight: 700;
+}
+
+#intro-blog p {
+    color: var(--cor-texto);
+
+    width: 420px;
+    height: 186;
+}
+
+/*Artigos*/
+.artigos {
+    background-color: var(--cor-secao);
+    padding: 80px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.artigo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0px 80px;
+
+}
+
+.artigo img {
+    width: 500px;
+    padding-bottom: 20px;
+}
+
+.artigo h3 {
+    color: var(--titulo-rosa);
+
+    font-size: 30px;
+
+    padding-bottom: 20px;
+}
+
+.artigo p {
+    width: 500px;
+    height: 80px;
+
+    margin-bottom: 100px;
+}
