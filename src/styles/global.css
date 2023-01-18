@@ -42,3 +42,18 @@ button:hover {
     --titulos: #009688;
     --cor-texto: rgb(0, 0, 0);
 }
+
+@media only screen and (max-width:480px) {
+
+    html,
+    body {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 1rem;
+        overflow-x: hidden;
+    }
+
+    .generica {
+        max-width: 300px;
+        height: auto;
+    }
+}

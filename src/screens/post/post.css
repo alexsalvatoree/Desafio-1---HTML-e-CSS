@@ -86,3 +86,44 @@ h2 {
     color: #FFF;
     font-size: 20px;
 }
+
+
+@media only screen and (max-width:480px) {
+    main {
+        padding: 20px;
+        margin: 0 auto;
+    }
+
+    h1 {
+        padding-top: 20px;
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+
+    }
+
+    #conheca-curso {
+        padding: 20px
+    }
+
+    #curso {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    #curso img {
+        width: 200px;
+        height: 200px;
+    }
+
+    #curso h3 {
+        width: 90%;
+        font-size: 1.7rem;
+    }
+
+    .cursos p {
+        width: 85%;
+    }
+}

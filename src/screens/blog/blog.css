@@ -68,3 +68,59 @@
     color: var(--cor-texto);
     margin-bottom: 100px;
 }
+
+
+@media only screen and (max-width:480px) {
+    #blog {
+        padding: 20px;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    #intro-blog {
+        width: 280px;
+
+
+        align-items: center;
+
+        text-align: center;
+    }
+
+    #intro-blog p {
+        width: 100%;
+    }
+
+    #blog img {
+        width: 280px;
+        margin: 0 auto;
+    }
+
+
+    .artigos {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .artigo {
+        padding: 0;
+
+        width: 280px;
+        padding-bottom: 50px;
+
+        border-bottom: 2px solid var(--titulo-rosa);
+    }
+
+    .artigo img {
+        width: 280px;
+        padding-top: 30px;
+    }
+
+    .artigo p {
+        width: 100%;
+        font-size: 0.8rem;
+        margin: 0;
+    }
+
+
+}
