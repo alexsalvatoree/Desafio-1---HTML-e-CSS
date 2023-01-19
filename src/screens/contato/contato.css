@@ -66,9 +66,9 @@
 }
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 300px) and (max-width: 1024px) {
     #contato {
-        width: 290px;
+        width: 100%;
         padding: 10px;
         margin: 0 auto;
     }
@@ -89,5 +89,26 @@
     #email,
     #mensagem {
         width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+    #contato {
+        width: 100%;
+        margin: 0 auto;
+        padding: 25px;
+    }
+
+    #contato img {
+        width: 40%;
+    }
+
+    #area-contato {
+        margin: 0;
+        width: 60%;
+    }
+
+    #area-contato h1 {
+        padding-bottom: 10px;
     }
 }

@@ -26,9 +26,16 @@ header nav a {
     align-items: center;
 }
 
+#responsivo-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #header-2 img {
     width: 200px;
     height: 60px;
+
 }
 
 #header-2 nav {
@@ -43,19 +50,20 @@ header nav a {
 
 #header-2 nav a {
     color: #fff;
+    font-weight: bold;
 }
 
 
 
 
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width: 800px) {
     #header-1 {
         display: none;
     }
 
     #header-2 {
-        display: block;
+        display: flex;
     }
 
 }
