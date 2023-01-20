@@ -45,8 +45,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 0px 40px;
-
+    padding: 0px 80px;
 }
 
 .artigo img {
@@ -108,7 +107,7 @@
         width: 280px;
         padding-bottom: 50px;
 
-        border-bottom: 2px solid var(--titulo-rosa);
+        border-bottom: 2px solid #c4c4c4;
     }
 
     .artigo img {
@@ -168,7 +167,7 @@
         padding-bottom: 50px;
         align-items: center;
 
-        border-bottom: 2px solid var(--titulo-rosa);
+        border-bottom: 2px solid #c4c4c4;
     }
 
     .artigo h1 {
@@ -188,7 +187,7 @@
 
 }
 
-@media only screen and (min-width:1024px) and (max-width:1260px) {
+@media only screen and (min-width:1024px) and (max-width:1280px) {
     #blog {
         width: 100%;
         padding: 20px;
@@ -197,15 +196,15 @@
 
     #intro-blog {
         width: 90%;
-
-
         align-items: center;
+    }
 
-        text-align: center;
+    #intro-blog h1 {
+        width: 50%;
     }
 
     #intro-blog p {
-        width: 100%;
+        width: 60%;
     }
 
     #blog img {
@@ -215,7 +214,7 @@
 
     .artigos {
         padding: 40px 0px;
-        max-width: 1260px
+        max-width: 1280px
     }
 
     .artigos a {
